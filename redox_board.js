@@ -16,13 +16,7 @@
 <script type="text/javascript">
  var checkAnswer=[];
 </script>
-<!----------------------------------------------------------------------------------------------------------------------------------------->
-<div id="div" style="display:none;">
-<p>oxid[[input:states]][[validation:states]]</p>
-<p>positions[[input:positions]] [[validation:positions]]</p>
-<p>ox_map [[input:oxidation_maps]] [[validation:oxidation_maps]]</p>
-<p>red_map [[input:reduction_maps]] [[validation:reduction_maps]]
-</p></div>
+
 [[jsxgraph  width="800px" height="400px" input-ref-states='statesRef' input-ref-positions='positionsRef'  input-ref-oxidation_maps='oxmapsRef' input-ref-reduction_maps='redmapsRef']]
 
  MathJax.Hub.Config({showMathMenu: false});
