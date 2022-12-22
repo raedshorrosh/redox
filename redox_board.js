@@ -169,7 +169,7 @@ fixed:function(){return answered}
 var psAtt = {
   name: '',
   size: 0,
-  attractors: c,
+ // attractors: c,
   attractorDistance: radius,
   showInfobox: false,
   fixed:function(){return answered}
