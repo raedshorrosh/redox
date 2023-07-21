@@ -545,7 +545,7 @@ if (!st){
 }
 });
 function createSelectDropdown() {
-      let selectTag = {#ox_no_txt#}+': '+ <select id="nameinput" style="font-family: Arial; font-size: 14px; padding: 5px; border: 1px solid #ccc; border-radius: 4px;>';
+      let selectTag = {#ox_no_txt#}+': '+ '<select id="nameinput" style="font-family: Arial; font-size: 14px; padding: 5px; border: 1px solid #ccc; border-radius: 4px;>';
       for (let i = -8; i < 9; i++) {
 			const sign = Math.sign(i) === 1 ? '+' : '';
         
