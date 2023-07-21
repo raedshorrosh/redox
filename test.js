@@ -560,7 +560,7 @@ function createSelectDropdown() {
     }
   
    const selectTag = createSelectDropdown();
-    const select = board.create('text', [-3, 4, selectTag], { fixed: true });
+    const select = board.create('text', [-3, 4, selectTag], { fixed: true, fontsize:fontsize });
     select.setAttribute({ visible: true });
 /*
 // input field for oxidation number
