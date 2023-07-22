@@ -10,8 +10,18 @@
   function dist(a,b){return Math.sqrt((a[0]-b[0])*(a[0]-b[0])+(a[1]-b[1])*(a[1]-b[1]))};
 </script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+ <script>
+               window.MathJax = {
+               tex: {
+               inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+               displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+               packages: ['base', 'ams'] },
+               options: {
+               ignoreHtmlClass: 'tex2jax_ignore',
+               processHtmlClass: 'tex2jax_process'
+               }
+               };
+     </script>
 
 <script type="text/javascript">
  var checkAnswer=[];
